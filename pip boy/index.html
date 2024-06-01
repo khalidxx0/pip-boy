@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pip-Boy Design</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="pipboy">
+        <header>
+            <h1>Pip-Boy 3000</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#status">الحالة الصحية</a></li>
+                <li><a href="#map">الخريطة</a></li>
+                <li><a href="#chat">المحادثة</a></li>
+                <li><a href="#radio">الراديو</a></li>
+                <li><a href="#quests">المهام</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="status">
+                <h2>الحالة الصحية</h2>
+                <p>تفاصيل الحالة الصحية للشخصية.</p>
+            </section>
+            <section id="map">
+                <h2>الخريطة</h2>
+                <p>خريطة اللعبة والتوجيهات.</p>
+            </section>
+            <section id="chat">
+                <h2>المحادثة</h2>
+                <div class="chat-box" id="chat-box">
+                    <!-- الرسائل ستظهر هنا -->
+                </div>
+                <form id="chat-form">
+                    <input type="text" id="chat-input" placeholder="اكتب رسالتك هنا..." required>
+                    <button type="submit">إرسال</button>
+                </form>
+            </section>
+            <section id="radio">
+                <h2>الراديو</h2>
+                <p>محطات الراديو داخل اللعبة.</p>
+            </section>
+            <section id="quests">
+                <h2>المهام</h2>
+                <p>تفاصيل المهام الحالية والمكتملة.</p>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Pip-Boy Simulation</p>
+        </footer>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
